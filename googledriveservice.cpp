@@ -59,7 +59,7 @@ GoogleDriveService::GoogleDriveService(QObject *parent) : QObject(parent)
     m_google->setAuthorizationUrl(QUrl("https://accounts.google.com/o/oauth2/auth"));
     m_google->setAccessTokenUrl(QUrl("https://oauth2.googleapis.com/token"));
     m_google->setClientIdentifier("874435141224-gefl74mqdqd8bmoj9dq91bf77iopt4br.apps.googleusercontent.com");
-    m_google->setClientIdentifierSharedKey("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");
+    m_google->setXXClientIdentifierSharedKXXey("bbbbbbbbGOCSPX-79e5mmxRs-aPqBfrDYtJEbiTMJH8");
 
     // In my case, I have hardcoded 5476
     // This is set in Redirect URI in Google Developers Console of the app
